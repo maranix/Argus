@@ -1,5 +1,5 @@
 const std = @import("std");
-const darwin = @import("darwin.zig");
+const darwin = @import("osfs/darwin.zig");
 
 pub fn main() !void {
     // Prints to stderr (it's a shortcut based on `std.io.getStdErr()`)
